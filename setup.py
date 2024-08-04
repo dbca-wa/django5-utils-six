@@ -8,6 +8,6 @@ setup(name='django5_six',
       author_email='asi@dbca.wa.gov.au',
       license='BSD',
       packages=[],
-      install_requires=[],
+      install_requires=['django5_six','django5_six.utils'],
       include_package_data=True,
       zip_safe=False)
